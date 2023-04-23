@@ -26,7 +26,7 @@ env = gym.make("CartPole-v1", render_mode="human")
 observation, info = env.reset(seed=42) # get the first observation
 
 for step in range(1000):
-	# here you can use your policy to get an action based on the observation
+    # here you can use your policy to get an action based on the observation
 	action = env.action_space.sample()
 
 	# execute the action in the environment
